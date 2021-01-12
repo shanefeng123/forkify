@@ -28,6 +28,7 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   bookmarksView.addHandlerRender(controlBookmarks);
   addRecipeView._addHandlerUpload(controlAddRecipe);
+  console.log('What do you want');
 };
 
 const controlRecipe = async function () {
