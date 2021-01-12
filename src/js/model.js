@@ -51,6 +51,7 @@ export const loadRecipe = async function (id) {
     if (state.bookmarks.some(recipe => recipe.id === state.recipe.id)) {
       state.recipe.bookmarked = true;
     }
+    console.log('git test');
   } catch (error) {
     throw error;
   }
